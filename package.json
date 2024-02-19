@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "build1": "vite build",
     "build2": "npm run build:es",
-    "publish": "npm publish & git push origin master",
+    "publish": "npm publish",
+    "push": "git push origin master",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
